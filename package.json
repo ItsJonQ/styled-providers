@@ -7,6 +7,7 @@
   "scripts": {
     "prestart": "zero prestart",
     "build": "zero build",
+    "postbuild": "sh ./scripts/postbuild.sh",
     "lint": "zero lint",
     "test": "zero test",
     "format": "zero format",
@@ -14,7 +15,6 @@
     "release": "zero release -- --contents dist",
     "version": "zero build",
     "precommit": "zero pre-commit",
-    "prepublish": "sh ./scripts/publish.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
