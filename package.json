@@ -11,7 +11,7 @@
     "test": "zero test",
     "format": "zero format",
     "validate": "zero validate",
-    "release": "zero release",
+    "release": "zero release -- --contents dist",
     "version": "zero build",
     "precommit": "zero pre-commit",
     "prepublish": "sh ./scripts/publish.sh",
