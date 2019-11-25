@@ -1,0 +1,52 @@
+{
+  "name": "styled-providers",
+  "version": "0.0.0",
+  "description": "Module generated with Zero",
+  "main": "src/index.js",
+  "private": false,
+  "scripts": {
+    "prestart": "zero prestart",
+    "build": "zero build",
+    "lint": "zero lint",
+    "test": "zero test",
+    "format": "zero format",
+    "validate": "zero validate",
+    "release": "zero release",
+    "version": "zero build",
+    "precommit": "zero pre-commit",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.4"
+  },
+  "dependencies": {
+    "@emotion/cache": "^10.0.19",
+    "@emotion/weak-memoize": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@emotion/core": "10.0.22",
+    "@emotion/styled": "10.0.23",
+    "@itsjonq/zero": "4.0.5",
+    "@storybook/addon-actions": "5.2.6",
+    "@storybook/addon-links": "5.2.6",
+    "@storybook/addons": "5.2.6",
+    "@storybook/react": "5.2.6",
+    "babel-loader": "8.0.6",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-frame-component": "4.1.1",
+    "styled-components": "5.0.0-rc.2",
+    "stylis-plugin-extra-scope": "0.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
