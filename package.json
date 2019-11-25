@@ -1,6 +1,6 @@
 {
   "name": "styled-providers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handy Providers for Emotion / Styled Components",
   "main": "dist/index.js",
   "private": false,
