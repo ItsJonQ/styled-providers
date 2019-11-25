@@ -2,7 +2,7 @@
   "name": "styled-providers",
   "version": "0.0.1",
   "description": "Handy Providers for Emotion / Styled Components",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "private": false,
   "scripts": {
     "prestart": "zero prestart",
