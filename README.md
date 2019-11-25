@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+-   [✨ Styled Providers](#-styled-providers)
+    -   [Installation](#installation)
+    -   [Usage](#usage)
+        -   [Emotion](#emotion)
+        -   [Styled Components](#styled-components)
+    -   [Components](#components)
+        -   [FrameProvider](#frameprovider)
+        -   [ScopeProvider](#scopeprovider)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # ✨ Styled Providers
 
 [![Build Status](https://travis-ci.org/ItsJonQ/styled-providers.svg?branch=master)](https://travis-ci.org/ItsJonQ/styled-providers)
@@ -12,7 +26,7 @@ npm install --save-dev styled-providers
 
 ## Usage
 
-This project uses [Emotion](https://emotion.sh/) as the default CSS-in-JS library. However, both [Emotion](https://emotion.sh/) and [Styled Components](https://www.styled-components.com/) are supported.
+[Emotion](https://emotion.sh/) and [Styled Components](https://www.styled-components.com/) are supported.
 
 To specify the library, use the `type` prop for the Providers.
 
@@ -21,7 +35,7 @@ To specify the library, use the `type` prop for the Providers.
 ```jsx
 import React from "react";
 import styled from "@emotion/styled";
-import { ScopeProvider } from "styled-providers";
+import { ScopeProvider } from "styled-providers/emotion";
 
 const View = styled.div`
 	background: blue;
@@ -43,7 +57,7 @@ const App = () => {
 ```jsx
 import React from "react";
 import styled from "styled-components";
-import { ScopeProvider } from "styled-providers";
+import { ScopeProvider } from "styled-providers/styled-components";
 
 const View = styled.div`
 	background: blue;
@@ -71,7 +85,7 @@ Provides the correct document.head to mount the `<style>` tag for either Emotion
 ```jsx
 import React from "react";
 import styled from "@emotion/styled";
-import { FrameProvider } from "styled-providers";
+import { FrameProvider } from "styled-providers/emotion";
 import Frame from "react-frame-component";
 
 const View = styled.div`
@@ -96,7 +110,7 @@ Provides a scope to prefix before generated classNames for either Emotion or Sty
 ```jsx
 import React from "react";
 import styled from "styled-components";
-import { ScopeProvider } from "styled-providers";
+import { ScopeProvider } from "styled-providers/emotion";
 
 const View = styled.div`
 	background: blue;
