@@ -8,7 +8,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 -   [Installation](#installation)
--   [Requires](#requires)
+-   [Requirements](#requirements)
 -   [Usage](#usage)
     -   [Emotion](#emotion)
     -   [Styled Components](#styled-components)
@@ -24,7 +24,7 @@
 npm install --save-dev styled-providers
 ```
 
-## Requires
+## Requirements
 
 -   [React v16.8.0+](https://reactjs.org/blog/2019/02/06/react-v16.8.0.html)
 -   [Emotion v10+](https://emotion.sh/docs/migrating-to-emotion-10) **or** [Styled Components v5+](https://medium.com/styled-components/announcing-styled-components-v5-beast-mode-389747abd987)
