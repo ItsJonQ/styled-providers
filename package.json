@@ -20,6 +20,19 @@
     "build-storybook": "build-storybook"
   },
   "license": "MIT",
+  "keywords": [
+    "styled-components",
+    "styled",
+    "emotion",
+    "react",
+    "provider",
+    "providers",
+    "scoping",
+    "scope",
+    "css",
+    "frame",
+    "iframe"
+  ],
   "peerDependencies": {
     "react": "^16.8.0"
   },
