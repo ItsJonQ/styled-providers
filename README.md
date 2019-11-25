@@ -1,5 +1,7 @@
 # ✨ Styled Providers
 
+[![Build Status](https://travis-ci.org/ItsJonQ/styled-providers.svg?branch=master)](https://travis-ci.org/ItsJonQ/styled-providers)
+
 > Handy Providers for Emotion / Styled Components
 
 ## Installation
