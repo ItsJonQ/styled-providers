@@ -27,8 +27,6 @@ npm install --save-dev styled-providers
 
 [Emotion](https://emotion.sh/) and [Styled Components](https://www.styled-components.com/) are supported.
 
-To specify the library, use the `type` prop for the Providers.
-
 ### Emotion
 
 ```jsx
