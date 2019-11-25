@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.8.4"
+    "react": "^16.8.0"
   },
   "dependencies": {
     "@emotion/cache": "^10.0.19",
