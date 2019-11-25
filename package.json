@@ -1,7 +1,7 @@
 {
   "name": "styled-providers",
   "version": "0.0.0",
-  "description": "Module generated with Zero",
+  "description": "Handy Providers for Emotion / Styled Components",
   "main": "src/index.js",
   "private": false,
   "scripts": {
