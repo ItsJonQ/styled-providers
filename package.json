@@ -4,6 +4,7 @@
   "description": "Handy Providers for Emotion / Styled Components",
   "main": "index.js",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "prestart": "zero prestart",
     "build": "zero build",
@@ -19,7 +20,15 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "license": "MIT",
+  "author": "Jon Quach <hello@jonquach.com> (https://jonquach.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsjonq/styled-providers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsjonq/styled-providers/issues"
+  },
+  "homepage": "https://github.com/itsjonq/styled-providers#readme",
   "keywords": [
     "styled-components",
     "styled",
