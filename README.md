@@ -47,7 +47,7 @@ const View = styled.div`
 const App = () => {
 	return (
 		<div id="#app">
-			<ScopeProvider scope="#app" type="emotion">
+			<ScopeProvider scope="#app">
 				<View />
 			</ScopeProvider>
 		</div>
@@ -69,7 +69,7 @@ const View = styled.div`
 const App = () => {
 	return (
 		<div id="#app">
-			<ScopeProvider scope="#app" type="styled-components">
+			<ScopeProvider scope="#app">
 				<View />
 			</ScopeProvider>
 		</div>
