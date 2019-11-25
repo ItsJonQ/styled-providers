@@ -14,6 +14,7 @@
     "release": "zero release",
     "version": "zero build",
     "precommit": "zero pre-commit",
+    "prepublish": "sh ./scripts/publish.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

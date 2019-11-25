@@ -1,22 +1,21 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
--   [✨ Styled Providers](#-styled-providers)
-    -   [Installation](#installation)
-    -   [Usage](#usage)
-        -   [Emotion](#emotion)
-        -   [Styled Components](#styled-components)
-    -   [Components](#components)
-        -   [FrameProvider](#frameprovider)
-        -   [ScopeProvider](#scopeprovider)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # ✨ Styled Providers
 
 [![Build Status](https://travis-ci.org/ItsJonQ/styled-providers.svg?branch=master)](https://travis-ci.org/ItsJonQ/styled-providers)
 
 > Handy Providers for Emotion / Styled Components
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+-   [Installation](#installation)
+-   [Usage](#usage)
+    -   [Emotion](#emotion)
+    -   [Styled Components](#styled-components)
+-   [Components](#components)
+    -   [FrameProvider](#frameprovider)
+    -   [ScopeProvider](#scopeprovider)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Installation
 
