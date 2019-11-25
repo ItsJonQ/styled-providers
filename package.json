@@ -14,6 +14,7 @@
     "validate": "zero validate",
     "release": "zero release -- --contents dist",
     "version": "zero build",
+    "postversion": "sh ./scripts/postbuild.sh",
     "precommit": "zero pre-commit",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
