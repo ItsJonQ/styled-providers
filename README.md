@@ -21,7 +21,7 @@
 ## Installation
 
 ```
-npm install --save-dev styled-providers
+npm install --save styled-providers
 ```
 
 ## Requirements
