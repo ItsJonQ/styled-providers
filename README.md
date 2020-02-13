@@ -112,7 +112,7 @@ Provides a scope to prefix before generated classNames for either Emotion or Sty
 
 ```jsx
 import React from "react";
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import { ScopeProvider } from "styled-providers/emotion";
 
 const View = styled.div`
