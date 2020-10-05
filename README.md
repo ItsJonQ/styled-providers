@@ -98,7 +98,9 @@ const View = styled.div`
 const App = () => {
 	return (
 		<Frame>
-			<View />
+            <FrameProvider>
+			    <View />
+            </FrameProvider>
 		</Frame>
 	);
 };
